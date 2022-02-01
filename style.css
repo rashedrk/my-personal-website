@@ -6,74 +6,119 @@ body{
     color: rgb(219, 43, 96);
     font-size: 50px;
 }
-.intro{
-    width: 40%;
-    margin: 5% 5% 10% 5%;
-    padding: 2% 5% ;
-}
-.intro img{
-    width: 100%;
-    
-}
-#details{
-    margin-top: 10%;
-    margin-right: 0%;
-    padding-right: 0%;
-}
-#details2{
-    margin-left: 0%;
-    padding-left: 0%;
-}
 header{
     display: flex;
     background-image: url(images/header-bg.png);
     background-repeat: no-repeat;
-    
+    background-size: 100%;
+}
+.intro1{
+    width: 40%;
+    margin-top: 10%;
+    margin-left: 5%;
+    padding-top: 2%;
+    padding-left: 5%;
+    margin-bottom: 10%;
+}
+.intro2{
+    width: 40%;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+}
+ img{
+    width: 100%;
 }
 .button{
-    background-color: rgb(219, 43, 96);
+    width: 15%;
     border-radius: 5px;
+    background-color:rgb(219, 43, 96);
+    background-image: linear-gradient(45deg,rgb(236, 115, 151),rgb(219, 43, 96));
+    padding: 2% 5%;
     text-align: center;
     font-weight: 600;
-    padding: 10px 15px;
-    width: 25%;
-    
 }
-.button a{
-    text-decoration: none;
+a{
     color: white;
+    text-decoration: none;
 }
 .biography{
     display: flex;
     background-image: url(images/biography-bg.png);
-    background-repeat: none;
+    background-repeat: no-repeat;
+       
+}
+.bio1{
+    width: 40%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    padding-left: 5%;
+}
+.bio2{
+    width: 40%;
+    margin-top: 10%;
+    margin-right: 5%;
+    margin-bottom: 5%; 
+    margin-left: 2%;
+    padding: 5%;
 }
 #button2{
-    width: 30%;
+    width: 25%;
 }
-#details2{
-    margin-top: 10%;
-    margin-left: 0%;
-    padding-left: 0%;
-    padding-top: 5%;
+.img{
+    width: 25%;
+    margin-bottom: 5%;
+    margin-top: 3%;
 }
 .img1{
-    width: 20%;
-    margin: 5%;
-    display: inline-block;
+    margin-left: 10%;
+    margin-right: 3%;
 }
-.img1 img{
-    width: 100%;
+.img2{
+    margin-right: 3%;
+}
+.img3{
+    margin-right: 10%;
 }
 .work-img{
     display: flex;
-    margin:2%;
-    padding: 5%;
 }
 .lastest-work{
     background-image: url(images/latest-work-bg.png);
     background-repeat: no-repeat;
+    background-position: right;
+    background-size: 80%;
 }
-.lastest-work h2{
+.lastest-work h1{
     text-align: center;
+    font-size: 50px;
+}
+footer{
+    text-align: center;
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.designation{
+    font-size: 15px;
+    color: rgb(100, 97, 97);
+}
+.review{
+    margin: 0% 10%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.msg{
+    width: 40%;
+    margin:10% 30% 5% 30%;
+    height: 100px;
+    padding:3% 2% 5% 2%;
+    border-radius: 5px;
+    background-color: rgb(219, 43, 96);
+    color: white;
+}
+.copyr{
+    color: rgb(83, 80, 80);
+    font-size: 10px;
 }
